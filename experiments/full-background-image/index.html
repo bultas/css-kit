@@ -1,0 +1,38 @@
+
+<!-- more on http://css-tricks.com/perfect-full-page-background-image/ -->
+<!-- Not working on <IE9 -->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Centered container</title>
+	
+	<style>
+
+		html { 
+		  background: url(http://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+		
+		/*Just for better style*/
+		.container {
+			margin: auto;
+			max-width: 500px;
+			background: #eee;
+			text-align: center;
+			padding: 5em;
+		}
+	</style>
+
+</head>
+<body>
+	
+	<div class="container">100% height and responsive background image</div>
+
+</body>
+</html>

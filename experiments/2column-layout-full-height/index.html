@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>2 column layout</title>
 
 	<style>
-		body, html {height: 100%;}
 
-		body {margin: 0;}
+		/*Every content parent element have to have 100% height*/
+		html, body  { height: 100%; }
+
+		/* Cosmetic fix - Prevent little body default margin*/
+		body { margin: 0; } 
 
 		.sidebar {
 			position:fixed;
