@@ -1,0 +1,167 @@
+body {
+	font-size: 18px;
+	line-height: 1.85em;
+	font-family: 'Open Sans', sans-serif;
+    margin: auto;
+	}
+
+h1,h2,h3,h4,h5,h6 {	
+	line-height: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+    /*margin-bottom: 1em;*/
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #DDD;
+}
+
+/* Main */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2em;
+}
+
+/*Snippets*/
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+
+.float-right {float: right}
+.float-left {float: left;}
+
+.mute {color: #999999;}
+
+.clearfix {clear: both;}
+
+.hidden {display: none;}
+
+.block { display: block;}
+
+.full-height {
+    height: 100%;
+}
+
+/* Forms */
+
+/*give clickable elements pointer*/
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
+}
+
+input, textarea, select {   
+    padding: 0.5em;  
+    border: solid 1px #D8D8D8; /* solid 1px #E5E5E5*/
+    width: 100%; 
+    outline: 0; /* nesviti okraje hover*/
+    color:#616161;
+    background: #FAFAFA; /*#F8F8F8*/
+    }  
+  
+textarea {   
+	width: 100%; 
+    line-height: 1.5em;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: auto; /*odstrani ie posuvniky*/
+    /*resize: none; zabrani moznosti resize v rohu*/
+    } 
+
+
+input[type="checkbox"], input[type="radio"] {
+	width: 1em;
+	border: none;
+	margin-right: 0.4em;
+}
+ 
+
+input:hover, textarea:hover,  
+input:focus, textarea:focus {   
+    border-color: #C9C9C9;   
+}  
+
+.form-group:hover input {border-color: #C9C9C9; } /*pokud je mys nad celou skupinou, zvyrazni se input*/
+  
+.form {
+	margin-top: 2em;
+}
+
+.form-group {
+	padding-bottom: 1em;
+}
+
+.form-group > div {
+	min-height: 2.3em;
+}
+
+label {   
+    margin: 0 0.5em; 
+    opacity: 0.8;     
+}  
+
+.form-group:hover label {opacity: 1;}
+.form-group:active label {opacity: 1;}
+
+.help-block {
+	font-size: 0.7em; 
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    margin-bottom: 2em;
+    line-height: 1.85em;
+}
+
+.table thead > tr > th {
+    vertical-align: bottom; /*zarovnani k dolni care*/
+    border-bottom: 2px solid #eee;
+}
+
+th {
+    text-align: left;
+    padding: 0.5em;
+}
+
+td {
+    padding: 0.5em;
+    vertical-align: top;
+    border-top: 1px solid #eee;
+}
+
+/* Lists */
+ul.unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.inline li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+/* Navigation */
+ul.nav {
+	padding: 0;
+	margin: 0;
+}
+
+ul.nav li {
+	padding-left: 1.5em;
+	list-style-type: none;
+	float: right;
+}
+
+/* Section divider */
+.section {
+    padding-bottom: 2em;
+}
