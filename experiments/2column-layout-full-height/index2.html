@@ -1,0 +1,45 @@
+
+
+
+<!-- This is not 100% working.. 
+	there is some cases what have to be solved -->
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2 column layout</title>
+
+	<style>
+
+		/*Every content parent element have to have 100% height*/
+		html, body  { height: 100%; }
+
+		/* Cosmetic fix - Prevent little body default margin*/
+		body { margin: 0; } 
+
+		.sidebar {
+			width: 200px;
+			height: 100%;
+			background: #eee;
+			float: left;
+			/*position: absolute; for mobile device*/
+		}
+
+		.main {
+			height: 100%;
+			background: #ccc;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="sidebar">Sidebar</div>
+	<div class="main">Main</div>
+	
+</body>
+</html>
