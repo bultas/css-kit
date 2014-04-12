@@ -4,6 +4,7 @@
     "ignore": [
     	"experiments",
     	".gitignore",
-    	"README.md"
+    	"README.md",
+    	"index.html"
     ]
 }
