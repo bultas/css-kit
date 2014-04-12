@@ -1,0 +1,8 @@
+{
+    "name": "CSS kit",
+    "version": "0.1",
+    "ignore": [
+    	".gitignore",
+    	"README.md"
+    ],
+}
