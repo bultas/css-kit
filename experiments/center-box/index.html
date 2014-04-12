@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Centered container</title>
+	
+	<style>
+		
+		/*fix default body margin*/
+		body {
+			margin: 0;
+		}
+
+
+		/*Center container verticaly*/
+		html, body {
+			height: 100%;
+			width: 100%;
+		}
+
+		body {
+			display: table;
+		}
+
+		.wrapper {
+			vertical-align: middle;
+			display: table-cell;
+		}
+		
+		/*Center container horizontaly*/
+		.container {
+			max-width: 500px;
+			margin: auto;
+		}
+
+
+		/*Add full height background image*/
+		html { 
+		  background: url(http://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+
+		/* just add some style*/
+		.container {
+			padding: 2em;
+			background: #fff;
+		}
+
+
+	</style>
+
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="container"> Hello, I am verticaly and horizontaly centered to parent div (container)</div>
+	</div>
+
+</body>
+</html>

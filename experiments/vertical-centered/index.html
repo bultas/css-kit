@@ -5,29 +5,22 @@
 	<title>Centered container</title>
 	
 	<style>
-
-		.container {
-			display: table;
-
-			/*Just for style*/
-			height: 500px;
-			width: 100%;
-			background: #eee;
-			text-align: center;
+		.wrapper {
+			height: 500px; /* container have to have parent with height px or % */
+			display: table;	
 		}
 
-		.content {
+		.container {
 			vertical-align: middle;
 			display: table-cell;
 		}
-
 	</style>
 
 </head>
 <body>
 	
-	<div class="container">
-		<div class="content"> Hello, I am verticaly centered to parent div (container)</div>
+	<div class="wrapper">
+		<div class="container"> Hello, I am verticaly centered to parent div (container)</div>
 	</div>
 
 </body>
