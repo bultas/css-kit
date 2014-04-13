@@ -55,6 +55,20 @@ hr {
 
 .block { display: block;}
 
+
+/*Vertical align*/
+.vertical-container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.vertical {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+
 /* Forms */
 
 /*give clickable elements pointer*/
